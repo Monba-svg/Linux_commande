@@ -1,0 +1,73 @@
+pwd = print working directory : afficher le repertoire en cour (actuel)
+ls = afficher les repertoires 
+dir = afficher les repertoires en noir
+dir -- color = ls (avec la couleur)
+cd = change directory : changer de repertoire
+cd ~ = repertoire de base de l'user
+cd - = repertoire precedent
+mkdir = créer un repertoire = make directory
+pour créer plusieurs document separe les par un espace
+mkdir rep1 rep2 rep3
+rmdir = remove print working directory
+touch permet de créer un fichier (touch groupe1.txt groupe2.txt )
+
+-------------vi (commande d'édition il nous permet décrire)-------------
+
+    i pour pour voir ecrire
+    echap puis :w pour sauvegarder
+    echap puis :q pour sortir
+
+-------------vi (commande d'édition il nous permet décrire)-------------
+
+
+-----------------nano (permet d'editer)-------------- 
+                
+                exemple: nano groupe1.txt
+                Ctrl+o pour enregistrer
+                Ctrl+x pour sortir
+
+-----------------nano (permet d'editer)-------------- 
+
+------------------cp : permet de copier ------------------
+                
+                cp source+fichier destination
+
+------------------cp : permet de copier ------------------
+
+ -------------------cat,head,tail,more,less----------------------
+
+            permet d'afficher le contenu d'un fichier
+            cat groupe1.txt
+            head groupe2.txt
+
+ ---------------------cat,head,tail,more,less-------------------
+
+ ---------------------Fusion ou concaténer de fichier ---------------------
+
+                cat groupe1.txt groupe3.txt > groupe2.txt
+
+ ---------------------Fusion ou concaténer de fichier ---------------------
+
+ ---------------------Déplacer un fichier ---------------------
+
+                        mv groupe3.txt ../MM
+
+ ---------------------Déplacer un fichier ---------------------
+
+---------------------Renommer un fichier ---------------------
+
+                        mv groupe3.txt  genie.txt
+
+ ---------------------Renommer un fichier ---------------------
+
+---------------------Supprimer un fichier ---------------------
+
+                        rm groupe2.txt
+
+ ---------------------Supprimer un fichier ---------------------
+
+ ---------------------Supprimer un dossier ---------------------
+
+                        rmdir DITI RT
+
+ ---------------------Supprimer un dossier --------------------
