@@ -30,7 +30,8 @@ touch permet de créer un fichier (touch groupe1.txt groupe2.txt )
 
 ------------------cp : permet de copier ------------------
                 
-                cp source+fichier destination
+                cp fichier  + source destination
+                cp -r dossier + source destination
 
 ------------------cp : permet de copier ------------------
 
